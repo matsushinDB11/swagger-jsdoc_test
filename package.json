@@ -1,0 +1,15 @@
+{
+  "name": "testing_swagger-jsdoc",
+  "version": "0.1.0",
+  "description": "testing for swagger-jsdoc",
+  "main": "src/index.js",
+  "repository": "https://github.com/matsushinDB11/swagger-jsdoc_test",
+  "author": "Shintaro Matsumoto",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
