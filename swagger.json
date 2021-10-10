@@ -1,0 +1,29 @@
+{
+  "info": {
+    "openapi": "3.0.0",
+    "title": "swagger-jsdoc test",
+    "version": "1.0.0",
+    "description": "testing for swagger-jsdoc"
+  },
+  "apis": [
+    "./src/index.js"
+  ],
+  "swagger": "2.0",
+  "paths": {
+    "/": {
+      "get": {
+        "description": "Returns the homepage",
+        "responses": {
+          "200": {
+            "description": "swagger-jsdoc test"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {},
+  "responses": {},
+  "parameters": {},
+  "securityDefinitions": {},
+  "tags": []
+}

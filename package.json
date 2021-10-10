@@ -11,6 +11,8 @@
     "swagger-jsdoc": "^6.1.0"
   },
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "doc": "swagger-jsdoc",
+    "make_doc": "swagger-jsdoc -d swaggerDefinition.js ./src/index.js"
   }
 }
